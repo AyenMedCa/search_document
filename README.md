@@ -1,6 +1,6 @@
-# Sententia - Sistema de Búsqueda de Documentos Jurídicos
+#  Sistema de Búsqueda de Documentos Jurídicos
 
-Este proyecto es una prueba técnica para Sententia, enfocada en la **interfaz de búsqueda de documentos jurídicos**.  
+Este proyecto es una prueba técnica  enfocada en la **interfaz de búsqueda de documentos jurídicos**.  
 Se implementó en **React** utilizando **Create React App**, con datos simulados (mock data) para probar la funcionalidad.
 
 ---
