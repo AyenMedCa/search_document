@@ -1,0 +1,74 @@
+.overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    z-index: 1000;
+}
+
+.modal {
+    background: white;
+    padding: 24px;
+    border-radius: 12px;
+    width: 400px;
+    max-width: 100%;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.modal h3 {
+    text-align: center;
+    margin-bottom: 16px;
+    font-size: 1.25rem;
+}
+
+.close {
+    display: block;
+    width: 100%;
+    margin-top: 24px;
+    padding: 10px 16px;
+    border-radius: 6px;
+    border: none;
+    background: #2563eb;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background 0.2s, transform 0.1s ease;
+}
+
+.close:hover {
+    background: #1e40af;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    .modal {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .modal h3 {
+        font-size: 1.1rem;
+    }
+
+    .close {
+        padding: 8px 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .modal {
+        padding: 16px;
+    }
+
+    .modal h3 {
+        font-size: 1rem;
+    }
+
+    .close {
+        padding: 8px 10px;
+        font-size: 0.95rem;
+    }
+}
